@@ -1,0 +1,101 @@
+body {
+  background-color: #D3D3D3;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #00B6A5;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  color: red;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+
+#nav-list {
+  margin-top: 10px;
+  background: #fff;
+}
+#nav-list a {
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+  color: red;
+}
+
+/* END HEADER */
+
+
+/* HOME PAGE */
+.item {
+  margin-bottom: 25px;
+  background-color: #fff;
+}
+.item-description {
+  padding-right: 30px;
+}
+h3.item-title {
+  margin: 0 0 10px;
+  color: blue;
+}
+/* END HOME PAGE */
+
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  /* End Header */
+
+    .col-xxm-12 {
+    position: relative;
+    padding-left: 15px;
+    float: left;
+    width: 100%;
+  }
+
+}
+
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+  
+  /* Home page */
+  #menu-tile, #specials-tile {
+    width: 280px;
+    margin: 0 auto 15px;
+  }
+  .col-xxs-12 {
+    position: relative;
+    padding-left: 15px;
+    float: left;
+    width: 100%;
+  }
+}
